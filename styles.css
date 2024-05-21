@@ -1,0 +1,131 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #00796b;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+#mangas-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+#mangas-list div {
+    background-color: #f9fbe7;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+#mangas-list div:hover {
+    transform: scale(1.05);
+}
+
+#mangas-list img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+#mangas-list img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+#mangas-list h3 {
+    color: #33691e;
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+#mangas-list p {
+    color: #558b2f;
+    font-size: 18px;
+}
+
+#mangas-list button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #00796b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#mangas-list button:hover {
+    background-color: #004d40;
+}
+
+#cart {
+    margin-top: 40px;
+    border-top: 2px solid #00796b;
+    padding-top: 20px;
+    text-align: left;
+}
+
+#cart h2 {
+    color: #00796b;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f8e9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#cart-items button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #d32f2f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#cart-items button:hover {
+    background-color: #b71c1c;
+}
+
+#cart-total {
+    font-weight: bold;
+    color: #33691e;
+    font-size: 20px;
+}

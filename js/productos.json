@@ -1,0 +1,7 @@
+[
+  { "id": 1, "titulo": "Naruto", "precio": 10, "imagen": "/img/naruto.webp" },
+  { "id": 2, "titulo": "One Piece", "precio": 12, "imagen": "/img/onepiece.jpg" },
+  { "id": 3, "titulo": "Attack on Titan", "precio": 15, "imagen": "/img/attackontitan.webp" },
+  { "id": 4, "titulo": "My Hero Academia", "precio": 8, "imagen": "/img/myheroacademia.webp" },
+  { "id": 5, "titulo": "Dragon Ball", "precio": 10, "imagen": "/img/dragonball.jpg" }
+]
